@@ -21,7 +21,7 @@ class Calculator extends React.Component {
     {
     return (
     <div className="frame">
-    <Title value="GeeksforGeeks Calculator"/>
+    <Title value="My Calculator"/>
     <div class="mainCalc">
     <OutputScreen answer = {this.state.answer} question = {this.state.question}/>
     <div className="button-row">
